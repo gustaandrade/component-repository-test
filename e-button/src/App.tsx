@@ -2,6 +2,8 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 
+import EButton from './components/e-button/index';
+
 const App: React.FC = () => {
   return (
     <div className="App">
@@ -18,6 +20,8 @@ const App: React.FC = () => {
         >
           Learn React
         </a>
+
+        <EButton isPrimary={true} />
       </header>
     </div>
   );
